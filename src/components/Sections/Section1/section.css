@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.section1 {
+  /* border-style: solid;
+  border-color: black;
+  border-width: 1px; */
+  padding: 10px;
+  margin: 5px;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 40vw;
+  /* background-color: beige; */
+
+  background-color: #ededed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1; /* Ensure buttons are on top */
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.sec1Img {
+  height: 2px;
+  width: 2px;
+  size: 10px;
+}
+
+.sec1Button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.sec1Button:hover {
+  background-color: darkorange;
+  transform: translateY(-2px);
+}
+
+.sec1Button:active {
+  background-color: #d35400;
+  transform: translateY(2px);
+}
+
+.sec1Img {
+  max-width: 60px;
+  max-height: 70px;
+}

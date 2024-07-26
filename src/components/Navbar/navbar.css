@@ -1,0 +1,56 @@
+.NavigationBar {
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 2vw;
+  margin: 10px;
+  padding: 20px;
+}
+
+.navContent:hover {
+  color: red;
+}
+
+.navContent {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 2px 20px;
+  margin: 0 auto;
+  color: rgb(43, 38, 38);
+}
+
+.navContents {
+  padding: 10px;
+}
+
+.navBarImg {
+  height: 5vw;
+  width: 15vw;
+  border-radius: 25px;
+}
+
+.contactUs {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 20px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contactUs:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.contactUs:active {
+  background-color: #d35400; /* Even darker orange on click */
+  transform: translateY(2px); /* Slight press effect on click */
+}

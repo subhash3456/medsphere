@@ -1,0 +1,76 @@
+.section5 {
+  /* border-style: solid;
+  border-color: black;
+  border-width: 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.sec5Images {
+  /* display: flex; */
+}
+
+.secImg {
+  /* position: relative;
+  margin: 3px;
+  flex: 0.5;
+  transition: flex 0.7s ease-in; */
+}
+
+.sec5Content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec5Button {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.sec5Button:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.sec5Button:active {
+  background-color: #d35400; /* Even darker orange on click */
+  transform: translateY(2px); /* Slight press effect on click */
+}
+
+.carousel2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.carousel2-item {
+  width: 100px; /* Minimized size */
+  height: 100px;
+  margin: 0 10px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.carousel2-item.active {
+  width: 100px; /* Maximized size */
+  height: 75px;
+  z-index: 1;
+  opacity: 1;
+}
