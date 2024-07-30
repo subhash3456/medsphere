@@ -28,7 +28,6 @@ export const Section5 = () => {
   return (
     <div className="section5">
       <div className="sec5Content">
-        section5
         <div className="section5Heading">
           <h1>Are You Ready To Grow Your Business?</h1>
         </div>

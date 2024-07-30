@@ -72,20 +72,22 @@ export const Section = () => {
           {items.map((item, index) => (
             <div
               className="carousel-item"
-              style={{
-                backgroundImage: "url(../Images/DvsW.jpg)",
-                // backgroundColor: "yellow",
-              }}
+              // style={{
+              //   backgroundImage: "url('../Images/DvsW.jpg')",
+              //   // backgroundColor: "yellow",
+              // }}
               key={index}
             >
-              <h2>{item.heading}</h2>
-              <p>{item.passage}</p>
-              <button className="sec1Button">{item.button}</button> <br></br>
-              <img
+              <div className="carousel-itemContent">
+                <div className="carouselItemContentHeading">{item.heading}</div>
+                <p className="carouselItemContentPara">{item.passage}</p>
+                <button className="sec1Button">{item.button}</button> <br></br>
+                {/* <img
                 className="sec1Img"
                 src={item.image}
                 alt={`Image ${index + 1}`}
-              />
+              /> */}
+              </div>
             </div>
           ))}
         </div>

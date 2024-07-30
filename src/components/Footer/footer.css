@@ -1,11 +1,14 @@
 .footer {
-  border-style: solid;
+  /* border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  background-color: rgb(83, 77, 77);
+  color: white;
 }
 
 .links {

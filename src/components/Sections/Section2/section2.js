@@ -4,7 +4,6 @@ import "./section2.css";
 export const Section2 = () => {
   return (
     <div className="section2">
-      Section2
       <h1 className="sec2Heading">
         Grow Your Business With Our End-To-End Revenue Cycle Management
         Solutions.

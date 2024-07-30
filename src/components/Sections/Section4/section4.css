@@ -5,10 +5,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .sec4Boxes {
   display: flex;
+}
+
+.imgSec4Content {
+  font-size: larger;
+  margin: 5px;
+}
+
+.sec4Content {
+  font-size: medium;
+}
+
+.readMore {
+  padding: 3px;
+  /* border-radius: 50%; */
+  background-color: #ededed;
+  border: none;
+}
+
+.readMore:hover {
+  color: red;
 }
 
 .sec4Box {
@@ -25,4 +46,11 @@
 .sec4Box:hover {
   background-color: #ededed;
   transform: translateY(-5px);
+}
+
+@media (max-width: 1080px) {
+  .sec4Boxes {
+    display: flex;
+    flex-direction: column;
+  }
 }

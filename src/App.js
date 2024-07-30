@@ -5,6 +5,7 @@ import { Careers } from "./components/Careers/careers";
 import { About } from "./components/About/about";
 import { Home } from "./components/Home/home";
 import "./App.css";
+import { MobileNavbar } from "./components/MobileNavbar/mobileNavbar";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Navbar />
+          <MobileNavbar />
         </div>
 
         <Routes>

@@ -9,7 +9,7 @@
 }
 
 .navContent:hover {
-  color: red;
+  color: yellow;
 }
 
 .navContent {
@@ -53,4 +53,26 @@
 .contactUs:active {
   background-color: #d35400; /* Even darker orange on click */
   transform: translateY(2px); /* Slight press effect on click */
+}
+
+/* .mobileNavbar {
+  display: none;
+} */
+
+@media (max-width: 1080px) {
+  .NavigationBar {
+    display: none;
+  }
+
+  .mobileNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background-color: white;
+  }
+
+  /* .NavigationBar {
+    color: red;
+  } */
 }

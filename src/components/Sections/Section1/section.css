@@ -1,6 +1,6 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
-}
+} */
 
 .section1 {
   /* border-style: solid;
@@ -13,9 +13,10 @@ body {
 .carousel-container {
   position: relative;
   max-width: 100%;
+  width: 100vw;
   margin: auto;
   overflow: hidden;
-  height: 40vw;
+  height: 85vh;
   /* background-color: beige; */
 
   background-color: #ededed;
@@ -23,6 +24,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../Images/fuckYou.jpg");
+  background-size: cover;
 }
 
 .carousel-content {
@@ -34,6 +37,29 @@ body {
   min-width: 100%;
   box-sizing: border-box;
   text-align: center;
+  background-image: url(../Images/DvsW.jpg);
+  background-size: cover;
+  height: 85vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .carousel-itemContent{
+
+} */
+
+.carouselItemContentHeading {
+  color: rgb(96, 119, 239);
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.carouselItemContentPara {
+  color: rgb(122, 120, 120);
+  font-size: 20px;
 }
 
 .carousel-item img {

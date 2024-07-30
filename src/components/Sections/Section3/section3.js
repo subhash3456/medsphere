@@ -4,7 +4,6 @@ import "./section3.css";
 export const Section3 = () => {
   return (
     <div className="section3">
-      Section3
       <h1 className="sec3Heading">Transforming Business</h1>
       <p className="sec3HeadingContent">
         Practolytics is one of the leading multi-specialty billing company
