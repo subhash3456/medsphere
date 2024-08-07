@@ -37,7 +37,7 @@ export const Section = () => {
       passage:
         "Minimize medical billing operational flaws and improve your healthcare business profitability",
       button: "Explore More",
-      // backgroundImg: { Img1 },
+      backgroundImg: Img1,
     },
     {
       image: Img1,
@@ -45,7 +45,7 @@ export const Section = () => {
       passage:
         "Minimize medical billing operational flaws and improve your healthcare business profitability",
       button: "Explore More",
-      // backgroundImg: { Img1 },
+      backgroundImg: Img1,
     },
     {
       image: Img1,
@@ -53,7 +53,7 @@ export const Section = () => {
       passage:
         "Minimize medical billing operational flaws and improve your healthcare business profitability",
       button: "Explore More",
-      // backgroundImg: { Img1 },
+      backgroundImg: Img1,
     },
   ];
 
@@ -73,20 +73,28 @@ export const Section = () => {
             <div
               className="carousel-item"
               // style={{
+              //   // backgroundImage: "url('../Images/DvsW.jpg')",
               //   backgroundImage: "url('../Images/DvsW.jpg')",
               //   // backgroundColor: "yellow",
               // }}
               key={index}
             >
-              <div className="carousel-itemContent">
+              <div
+                className="carousel-itemContent"
+                style={{
+                  // backgroundImage: "url('../Images/DvsW.jpg')",
+                  backgroundImage: "url('../Images/DvsW.jpg')",
+                  // backgroundColor: "yellow",
+                }}
+              >
                 <div className="carouselItemContentHeading">{item.heading}</div>
                 <p className="carouselItemContentPara">{item.passage}</p>
                 <button className="sec1Button">{item.button}</button> <br></br>
                 {/* <img
-                className="sec1Img"
-                src={item.image}
-                alt={`Image ${index + 1}`}
-              /> */}
+                  className="sec1Img"
+                  src={item.backgroundImg}
+                  alt="background Img"
+                /> */}
               </div>
             </div>
           ))}

@@ -8,8 +8,9 @@ export const NavLinks = () => {
   return (
     <div>
       <div className="NavigationBar">
-        <Link to="/">
-          <img src={img} alt="logo Img" className="navBarImg" />
+        <Link className="logoTitle" to="/">
+          {/* <img src={img} alt="logo Img" className="navBarImg" /> */}
+          <h1 className="logoTitleContent">MedSphere</h1>
         </Link>
         <div className="navContents">
           <Link to="/" className="navContent">

@@ -9,7 +9,7 @@ export const Section4 = () => {
       <h1 className="sec4Heading">Our Services</h1>
       <div className="sec4Boxes">
         <div className="sec4Box">
-          <img src={imgSec4} alt="sec4img" />
+          {/* <img src={imgSec4} alt="sec4img" /> */}
           <span className="imgSec4Content">Increase Revenue</span>
           <p className="sec4Content">
             Our meticulous approach to delivering healthcare revenue cycle
@@ -18,7 +18,7 @@ export const Section4 = () => {
           <button className="readMore">READ MORE</button>
         </div>
         <div className="sec4Box">
-          <img src={imgSec4} alt="sec4img" />
+          {/* <img src={imgSec4} alt="sec4img" /> */}
           <span className="imgSec4Content">Decrease Costs</span>
           <p className="sec4Content">
             Our meticulous approach to delivering healthcare revenue cycle
@@ -27,7 +27,7 @@ export const Section4 = () => {
           <button className="readMore">READ MORE</button>
         </div>
         <div className="sec4Box">
-          <img src={imgSec4} alt="sec4img" />
+          {/* <img src={imgSec4} alt="sec4img" /> */}
           <span className="imgSec4Content">Simplify Workflows</span>
           <p className="sec4Content">
             Our meticulous approach to delivering healthcare revenue cycle
@@ -36,7 +36,7 @@ export const Section4 = () => {
           <button className="readMore">READ MORE</button>
         </div>
         <div className="sec4Box">
-          <img src={imgSec4} alt="sec4img" />
+          {/* <img src={imgSec4} alt="sec4img" /> */}
           <span className="imgSec4Content">Increase Revenue</span>
           <p className="sec4Content">
             Our meticulous approach to delivering healthcare revenue cycle
